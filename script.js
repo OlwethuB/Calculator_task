@@ -1,11 +1,11 @@
-// function getID() {
-//   let BtnID = event.target.id;
-//   document.getElementById("input").innerHTML += BtnID;
-// }
-// function getop() {
-//   let Btnop = event.target.id;
-//   document.getElementById("input").innerHTML = Btnop;
-// }
+ function getID() {
+   let BtnID = event.target.id;
+   document.getElementById("input").innerHTML += BtnID;
+ }
+ function getop() {
+   let Btnop = event.target.id;
+   document.getElementById("input").innerHTML = Btnop;
+}
 
 let display = document.getElementById('input');
 let currentExpression = '';
